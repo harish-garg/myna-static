@@ -1,8 +1,8 @@
 module.exports = {
     siteMetadata: {
-        title: `HiStaff`,
-        description: `Make your Staff and Workspace Happy`,
-        author: `@mostafasoufi`,
+        title: `Myna`,
+        description: `Analyze and Grow on Twitter`,
+        author: `@harishkgarg`,
     },
     plugins: [
         `gatsby-plugin-react-helmet`,
@@ -13,6 +13,12 @@ module.exports = {
                 path: `${__dirname}/static/images`,
             },
         },
+        {
+            resolve: `gatsby-theme-blog`,
+            options: {
+              basePath: `/blog`,
+            },
+          },
         `gatsby-transformer-sharp`,
         `gatsby-plugin-sharp`,
         {

@@ -68,6 +68,16 @@ function SEO({ description, lang, meta, title }) {
           content: metaDescription,
         },
       ].concat(meta)}
+      script={[
+        { 
+          "data-uid": "9196668e25",
+          "src": "https://marvelous-experimenter-4753.ck.page/9196668e25/index.js",
+          "type": "text/javascript", "async": undefined
+        },
+        {
+          "src": "https://cdn.splitbee.io/sb.js", "async": undefined
+        }
+      ]}
     />
   )
 }

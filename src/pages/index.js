@@ -22,7 +22,7 @@ const IndexPage = () => (
       </p>
       <img alt={"Dashboard"} src={featureImage} />
     </div>
-
+    {/**  
     <div className={"container"}>
       <div className={"features"}>
         <div className={"feature__item"}>
@@ -129,19 +129,20 @@ const IndexPage = () => (
         </div>
       </div>
     </div>
+    */}
 
     <div className={"call-to-action"}>
       <div className={"container"}>
         <div className={"call-to-action__content"}>
-          <h2>Sign up for free</h2>
+          <h2>Sign up for Early Access</h2>
           <p>
-            Sign up and start increasing the productivity of your business with
-            HiStaff.
+            Sign up and start growing on Twitter
           </p>
         </div>
 
         <div className={"button"}>
-          <a href="#">Get Started</a>
+        <a data-formkit-toggle="9196668e25" href="https://marvelous-experimenter-4753.ck.page/9196668e25">Get early Access</a>
+          {/**<a href="#">Get Started</a>**/}
         </div>
       </div>
     </div>

@@ -14,7 +14,7 @@ const Header = ({siteTitle}) => (
                 </div>
 
                 <div className={"get-started"}>
-                    <a href={"#"}>Get Started</a>
+                <a data-formkit-toggle="9196668e25" href="https://marvelous-experimenter-4753.ck.page/9196668e25">Get Early Access</a>
                 </div>
             </div>
         </div>
